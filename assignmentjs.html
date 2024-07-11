@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    
+
+   
+ </body>
+ <script>
+
+   var select = prompt("Select a shape by entering either 1,2,3,4");
+   var selected = parseInt(select);
+var result =""
+   switch (true) {
+      case selected == 1:
+         result = "You choosed circle.";
+         break;
+         case selected == 2:
+         result = "You choosed square.";
+         break;
+         case selected == 3:
+         result = "You choosed triangle.";
+         break;
+         case selected == 4:
+         result = "You choosed rectangle.";
+         break;
+   
+      default:
+      result = "You choosed a wrong number.";
+         break;
+   }
+document.write(result);
+
+ </script>
+ </html>

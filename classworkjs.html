@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- <button onclick="getscore()"> Check Result</button>
+<input type="number" placeholder="Enter first Number" id="fnumber">
+<input type="number" placeholder="Enter second number" id="snumber">
+<button onclick="multiply()">Multiply</button> -->
+<select onload="classmates()">
+    <option id="result"></option>
+</select>
+    <script type="text/javascript">
+function classmates(){
+    var names = ["Damilola Bello", "Oluwole George", "Michael Okezie", "John Abaologun", "Gbenga Gbolahan"];
+
+var length = names.length;
+var output ="   "
+for (a=0; a<length; a++)
+{
+    output+=names[a] + "<br>"
+     document.write(output)
+}
+// document.getElementById("result").innerHTML= output;
+}
+
+
+// // function getscore() {
+// //     var score = prompt('Enter your score');
+// //     if (score>=50){
+// // alert ('You passed the text, congratulations!!!')
+// //     }
+// //     else{
+// //         alert('you failed, try again.')
+// //     }
+    
+// }
+
+// function multiply(){
+// var fnumber = document.getElementById('fnumber').value;
+// var snumber = document.getElementById('snumber').value;
+// var Result = parseInt(fnumber) * parseInt(snumber);
+// document.write('Your answer is '+ Result);
+
+// }
+    </script>
+</body>
+</html>
